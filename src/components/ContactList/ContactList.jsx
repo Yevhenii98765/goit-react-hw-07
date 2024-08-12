@@ -9,6 +9,7 @@ export const ContactList = () => {
   const filteredTodos = items.filter((contact) =>
     contact.name.toLowerCase().includes(filter.toLowerCase())
   );
+
   return (
     <div>
       <ul className={s.iner}>
