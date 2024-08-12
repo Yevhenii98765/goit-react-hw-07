@@ -4,7 +4,7 @@ import ContactsForm from "./components/ContactsForm/ContactsForm";
 import Container from "./components/Container/Container";
 import SearchBox from "./components/SearchBox/SearchBox";
 import { useEffect } from "react";
-import { fetchDataThunk } from "./redux/Contacts/operations";
+import { fetchDataThunk } from "./redux/Contacts/contactsOps";
 import { selectIsError, selectIsLoading } from "./redux/Contacts/contactsSlice";
 
 const App = () => {
